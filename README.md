@@ -22,18 +22,6 @@ SQL Server or any other SQL database management system.
 Tableau Desktop for visualization.
 Git to clone the repository.
 
-Steps
-Clone the repository:
-sh
-Copy code
-git clone https://github.com/yourusername/covid-report-sql-tableau.git
-Load the CSV Files:
-Load CovidDeath.csv and CovidVaccinations.csv into your SQL database. You can use tools like SQL Server Management Studio (SSMS) or any other ETL tools.
-Run the SQL Script:
-Open your SQL database management system and run the Covid_report.sql script to process the data.
-Open Tableau Dashboard:
-Open Covid_Report.twbx in Tableau Desktop to view the visualizations.
-
 Data Dictionary
 CovidDeath.csv
 continent: Continent of the reported cases.
